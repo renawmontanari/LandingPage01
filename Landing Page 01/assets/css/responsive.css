@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 771px) {
+    #header {
+        background: none;
+    }
+
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+
+    .header__text {
+        margin-top: 100px;
+    }
+
+    .header__text h1 {
+        font-size: 25px;
+    }
+
+    #menu-btn {
+        width: 40px;
+        right: 50px;
+    }
+
+    .common__btn {
+        padding: 10px 16px;
+    }
+
+    .social__icons img {
+        width: 18px;
+        margin: 15px auto;
+    }
+
+    .about-left-column, 
+    .about-right-column {
+        flex-basis: 100%;
+    }
+
+    .about__text {
+        margin: 50px 50px 0;
+    }
+
+    .about__text h3 {
+        font-size: 18px;
+    }
+
+    .group__column {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .group__btn, 
+    .line {
+        display: none;
+    }
+
+    .course-left-column {
+        flex-basis: 100%;
+    }
+
+    .course-right-column {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+
+    .course__text {
+        max-width: 100%;
+    }
+
+    .contact-left-column,
+    .contact-right-column {
+        flex-basis: 100%;
+    }
+
+    .contact-left-column {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-right-column {
+        margin-top: 50px;
+    }
+
+    .copyright__text, 
+    .footer__logo {
+        flex-basis: 100%;
+    }
+
+    .link__title {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,403 @@
+
+/* Fonts Goole */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Content Header */
+header {
+    height: 100vh;
+    background: url(/assets/img/img-1.png) no-repeat;
+    background-size: 55% 85%;
+    background-position: top right;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header__text {
+    max-width: 520px;
+    margin-top: 120px;
+}
+
+.header__text h1 {
+    font-size: 32px;
+}
+
+.header__text p {
+    line-height: 18px;
+    font-size: 15px;
+    color: #777;
+}
+
+.header__text button {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.common__btn {
+    padding: 15px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #d2481e;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #d2481e;
+    margin: 15px 0;
+}
+
+.line {
+    line-height: 18px;
+}
+
+.line__one {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d2481e;
+    display: inline-block;
+}
+
+.line__two {
+    width: 400px;
+    height: 2px;
+    background: #d2481e;
+    display: inline-block;
+}
+
+.line__three {
+    width: 280px;
+    height: 2px;
+    background: #d2481e;
+    display: inline-block;
+}
+
+/* Header Content NAV */
+#side-nav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    z-index: 2;
+    background: #f35c21;
+    transition: .4s ease;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu-btn {
+    width: 35px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: #f35c21;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Content About */
+#about, #offer  {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left-column {
+    flex-basis: 50%;
+}
+
+.about-left-column img {
+    width: 80%;
+}
+
+.about-right-column {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about__text {
+    max-width: 700px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about__text h3 {
+    margin: 50px 0 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.about__text h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: #787878;
+}
+
+/* Content Group */
+#group {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.group__row {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.group__column {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.group__column img {
+    width: 200px;
+}
+
+.group__column h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.group__btn {
+    margin: 80px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group__btn .line {
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* Content Courses */
+#courses {
+    padding: 100px 0;
+}
+
+.course__row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-right-column {
+    flex-basis: 50%;
+}
+
+.course-right-column img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.course-left-column {
+    flex-basis: 50%;
+}
+
+.course__text {
+    max-width: 500px;
+}
+
+#courses button {
+    margin: 30px 0;
+}
+
+/* Content Offer */
+.offer-left-column {
+    flex-basis: 50%;
+}
+
+.offer-left-column img {
+    width: 80%;
+}
+
+.offer-right-column {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.offer__text {
+    max-width: 700px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.offer__text h3 {
+    margin: 50px 0 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.offer__text h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: #787878;
+}
+
+#offer button {
+    margin: 30px 0;
+}
+
+/* Content Contact */
+.contact__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-left-column,
+.contact-right-column {
+    flex-basis: 50%;
+}
+
+.contact-right-column img {
+    width: 100%;
+}
+
+form {
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #ff8555;
+    border-radius: 40px;
+}
+
+.btn__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__box button {
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/* Content Footer */
+footer {
+    padding: 50px 0 30px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ff8555;
+}
+
+.footer__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-column{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-right-column{
+    flex-basis: 35%;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link__title h4 {
+    color: #ff8555;
+    margin-bottom: 20px;
+}
+
+.link__title small {
+    color: #777;
+    font-size: 13px;
+}
+
+.footer__information {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.copyright__text, 
+.footer__logo {
+    flex-basis: 50%;
+}
+
+.footer__logo img {
+    width: 100px;
+}
+
+.footer__logo button {
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+/* Social Media */
+.social__icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(-15%);
+    z-index: 1;
+}
+
+.social__icons img {
+    width: 30px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
